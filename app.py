@@ -44,7 +44,7 @@ def preprocess_image(img):
 
 # --- UI Title ---
 st.title("🥕 Vegetable Image Classifier")
-st.caption("Upload an image of **Tomato**, **Onion**, or **Potato** and get a prediction!")
+st.caption("Upload an image of **indianmarket**,**Tomato**, **Onion**, or **Potato** and get a prediction!")
 
 # --- File Upload ---
 uploaded_file = st.file_uploader("📤 Upload an image", type=["jpg", "jpeg", "png"])
